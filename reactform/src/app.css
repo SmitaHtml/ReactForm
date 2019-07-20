@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+input{
+margin-top:10px;
+margin-bottom:10px;
+padding-left:35px;
+width:150px;
+height:30px;
+font-size:14px;
+box-shadow:0 0 5px;*background-position:6px;
+
+}
+main{
+width:350px;
+height:auto;
+margin:50px auto 0;
+padding:50px;
+background-color:#EEE;
+color:#333;
+border:2px solid #C2D6FF;
+border-radius:40px 0 40px 0;
+
+
+}
+select {
+  background-image:;
+  background-position:6px;
+  border:1px solid #DADADA;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-left:35px;
+  width:310px;
+  height:30px;
+  font-size:14px;
+  box-shadow:0 0 5px;
+  padding-left: 40px;
+
+}
+input[type=text] {
+  width: 280px;
+  padding-left:35px;
+
+}
+input[type=radio] {
+width:6%;
+
+}
+input[type=checkbox] {
+width:6%;
+
+
+}
+button {
+  background-image:;
+  background-position:6px;
+  border:1px solid #DADADA;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-left:35px;
+  width:310px;
+  height:30px;
+  font-size:14px;
+  box-shadow:0 0 5px;
+  padding-left: 40px;
+
+}
